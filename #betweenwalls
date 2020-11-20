@@ -1,3 +1,4 @@
+        //Create an algorithm that generates two random numbers between [1 , 100] and lists all numbers between both inclusively
         static Random r = new Random();
         static void Main(string[] args)
         {
