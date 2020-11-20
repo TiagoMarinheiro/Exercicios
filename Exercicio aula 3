@@ -1,0 +1,20 @@
+        //Dado 2 variaveis random fazer com que ambas dêm o mesmo valor
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int a = r.Next(100);
+            int b = r.Next(100);
+            while (b != a)
+            {
+                if (b < a)
+                {
+                    b++;
+                }
+                if (b > a)
+                {
+                    b--;
+                }
+            }
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
