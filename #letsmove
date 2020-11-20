@@ -1,0 +1,22 @@
+        //Create an algorithm that moves a character's position frame by frame from the position (0,0) to a target random position in a map with 1000px x 1000px (Only horizontal and vertical moves are allowed)
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int startX = 0;
+            int startY = 0;
+            int targetX = r.Next(0, 1001);
+            int targetY = r.Next(0, 1001);
+
+            Console.WriteLine("target x: " + targetX);
+            for (int a = startX; a<=targetX; a++)
+            {
+                Console.WriteLine("The character is on the X position of " + a );
+            }
+
+            Console.WriteLine("target y: " + targetY);
+
+            for (int b = startY; b<=targetY; b++)
+            {
+                Console.WriteLine("The character is on the Y position of " + b );
+            }
+        }
