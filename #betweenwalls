@@ -1,0 +1,25 @@
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+           
+            int a = r.Next(0, 101);
+            int b = r.Next(0, 101);
+
+            if (a < b)
+            {
+                Console.WriteLine("Printing values from " + a + " to " + b);
+                for (int i = a; i<=b; i++)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            if (a > b)
+            {
+                Console.WriteLine("Printing values from " + b + " to " + a);
+                for (int i = b; i<=a; i++)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+    }
