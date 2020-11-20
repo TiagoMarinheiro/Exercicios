@@ -1,4 +1,4 @@
-       //Dado uma turma quantos alunos atingiram média superior a 15 valores
+        //Dado uma turma quantos alunos atingiram média superior a 15 valores
         static Random r = new Random();
         static void Main(string[] args)
         {
