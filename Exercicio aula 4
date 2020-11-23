@@ -1,0 +1,11 @@
+static Random r = new Random();
+static void main(){
+int a = r.Next(1,7);
+int b = r.Next(1,7);
+string c = Winner;
+if(a>b){
+c = c +":"+ a;}
+else{
+c = c +":"+ b;}
+Console.Writeline(c);
+}
