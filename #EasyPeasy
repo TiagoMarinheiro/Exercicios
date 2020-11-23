@@ -1,5 +1,5 @@
-        static Random r = new Random();
+        //Create an algorithm that sends a message "You have three lives, use them wisely," in which the number of lives it is stored in a variable.
         static void Main(string[] args)
-        {int lives =r.Next(2,5);
-         Console.WriteLine("You have" + lives + "use them wisely");
+        {int a = 3;
+         Console.WriteLine("You have" + a + "use them wisely");
         }
