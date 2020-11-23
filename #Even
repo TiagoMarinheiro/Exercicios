@@ -1,0 +1,10 @@
+//Create an algorithm that prints a sequence of even numbers between 1 and 100
+static void Main(string[] args){
+for (int a = 1; a <= 100; a++)
+  {
+  if (a % 2 == 0) 
+    {
+     Console.WriteLine(a);
+    }
+  }
+  }
