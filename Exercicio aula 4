@@ -1,0 +1,9 @@
+static Random r = newRandom();
+static void main (){
+int n = r.Next(10,500);
+for(int i=0; i<=n; i++){
+int ax = r.Next(0,500);
+int ay = r.Next(0,500);
+Console.Writeline("coordenadas (ax)(ay)");
+}
+}
