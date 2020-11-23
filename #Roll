@@ -1,3 +1,4 @@
+//Create an algorithm that simulates a roll between ( 1-6 ) for two players that are rolling for an item. The item should be given to the player with the highest roll
 static Random r = new Random();
 static void main(){
 int a = r.Next(1,7);
