@@ -1,0 +1,12 @@
+//Create an algorithm that simulates a roll between ( 1-6 ) for two players that are rolling for an item. The item should be given to the player with the highest roll
+        static Random r = new Random();
+        static void Main(string[] args)
+        {int Dado1=r.Next(1,7);
+         int Dado2=r.Next(1,7);
+         if(Dado1>Dado2){
+         Console.Writeline("Player 1 Wins")
+        }
+         if else(Dado2>Dado1){
+         Console.Writeline("Player 2 Wins")
+        }
+        }
